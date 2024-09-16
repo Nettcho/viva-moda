@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    font-family: "Zilla Slab", serif;
+    background-color: #F0F8FF;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 140px;
+    font-size: 1.3rem;
+    background-color: #191970;
+    font-family: "Rubik", sans-serif;
+    align-items: flex-start;
+}
+.header{
+    flex: 1 1 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .logo{
+    background: linear-gradient(to right, #FFEFBA,#FFFFFF);
+    color: #000000;
+    font-weight: 450;
+    font-size: 1.8pc;
+    padding: 5px;
+}
+.header ul{
+    display: flex;
+    gap: 20px;
+}
+.header ul li a{    
+    color:  #ffffff;
+    padding: 10px;
+    font-weight: 400;
+}
+.header ul li a:hover{
+    border-bottom: 2px solid #F9F4F5;
+    background-color: #0202ff;
+    border-radius: 5px;
+}
+
+nav{
+    background-color: #87CEFA;
+    height: 40px;
+
+}
+nav .nav-clothes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+nav .nav-clothes li a{
+    padding: 8px 20px;
+    color: #000000;
+    font-size: 1.2pc;
+    display: block;
+}
+nav .nav-clothes li a:hover{
+    background-color: #62addc;
+    color: white;
+}
+
+
+
+
+main{
+    width: 85vw;
+    margin: 0 auto;
+}
+main .secao-masc .type-clothes{
+    margin: 50px 20px 30px;
+}
+main .secao-masc .type-clothes .camisa-masc{
+    font-size: 1.8pc;
+    color: rgb(106, 45, 45);
+    font-weight: 500;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+main .section-products-cards{
+    display: grid;
+    justify-content: space-around;
+    row-gap: 30px;
+    grid-template-columns: repeat(4, 300px);
+}
+main .section-products-cards .card{
+    width: 250px;
+    height: 320px;
+    border: 2px solid #6f42c1; /* Roxo vibrante */
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.2);
+    margin-right: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+}
+main .section-products-cards .card img{
+    width: 100%;
+    height: 180px;
+    margin-bottom: 2px;
+    border-radius: 10px;
+}
+main .section-products-cards .card .name-product{
+    padding-top: 5px;
+    font-weight: bold;
+    font-size: 1.1pc;
+    color: #343a40;
+    border-top: 2px dashed #6f42c1; /* Roxo vibrante */
+}
+main .section-products-cards .card .tam{
+    margin-block: 3px;
+    font-weight: 500;
+    font-size: 0.9pc;
+}
+main .section-products-cards .card .price{
+    color: #e03434;
+    font-family: "Rubik", sans-serif;
+}
+main .section-products-cards .card span{
+    font-size: 1.2pc;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    margin-top: 150px;
+    height: 150px;
+    background-color: white;
+}
+footer .informacoes{
+    padding: 20px 150px 0px;
+    color: #343a40;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+footer .informacoes .midias-sociais{
+    width: 250px;
+}
+footer .informacoes .midias-sociais .links{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+footer .informacoes .midias-sociais .midia{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    text-align: center;
+}
+footer .informacoes .midias-sociais .midia img{
+    width: 25px;
+    margin-top: 7px;
+}
+
+footer .direitos-reservados{
+    background-color: #000000;
+    height: 50px;
+    line-height: 50px;
+}
+footer .direitos-reservados p{
+    color: white;
+    text-align: center;
+}

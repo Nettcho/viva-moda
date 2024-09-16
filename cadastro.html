@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <title>Viva Moda</title>
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <a href="#" class="logo">VIVA MODA</a>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="cadastro.html">Login</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div class="box cadastro">
+            <div class="titulo">
+                <h3>CADASTRO</h3>
+            </div>
+
+            <div class="info">
+                <p> 
+                    <label for="inNomeCad">Nome</label>
+                    <input id="inNomeCad" type="text" placeholder="Nome"/>
+                </p>
+                <p> 
+                    <label for="inSobrenomeCad">Sobrenome</label>
+                    <input id="inSobrenomeCad" type="text" placeholder="Sobrenome"/>
+                </p>
+                <p> 
+                    <label for="inNascimentoCad">Data de Nascimento:</label>
+                    <input id="inNascimentoCad" type="date">
+                </p>
+                <p> 
+                    <label for="inEmailCad">Email</label>
+                    <input id="inEmailCad" type="email" placeholder="email@gmail.com">
+                </p>
+                <p> 
+                    <label for="inTelefoneCad">Telefone</label>
+                    <input id="inTelefoneCad" type="text" placeholder="(00) 9 9999-9999">
+                </p>
+                <p> 
+                    <label for="inSenhaCad">Senha</label>
+                    <input id="inSenhaCad" type="password" placeholder="******">
+                </p>
+                
+                <button type="button" id="btCadastrar">Cadastrar</button>
+                <h2 id="outCad"></h2>
+            </div>
+        </div>
+
+        <div class="box login">
+
+            <div class="titulo">
+                <h3>LOGIN</h3>
+            </div>
+
+            <div class="info">
+                <p>
+                    <label for="inEmailLog">Seu e-mail</label>
+                    <input type="text" id="inEmailLog" placeholder="email@gmail.com">
+                </p>
+                <p>
+                    <label for="inSenhaLog">Senha</label>
+                    <input type="text" id="inSenhaLog" placeholder="123456">
+                </p>
+                <button type="button">Entrar</button>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="informacoes">
+            <div class="midias-sociais">
+                <h3>Midias Sociais:</h3>
+                <div class="links">
+                    <div class="midia"><img src="image/facebook.png" alt=""></div>
+                    <div class="midia"><img src="image/instagram.png" alt=""></div>
+                    <div class="midia"><img src="image/twitter.png" alt=""></div>
+                    <div class="midia"><img src="image/whatsapp.png" alt=""></div>
+                </div>
+            </div>
+    
+            <div class="sobre">
+                <div class="sobre-nos">
+                    <h3>Sobre nós:</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> 
+                Laudantium vitae, eos labore vero quaerat et neque ab distinctio id?<br> Assumenda repudiandae,
+                 eligendi minima tempora iste aperiam<br> est doloremque nesciunt reiciendis.</p>
+                </div>
+            </div>
+    
+            <div class="suporte">
+                <h3>Fale Conosco</h3>
+                <p>Telefone</p>
+                <p>E-mail</p>
+            </div>
+        </div>
+        <div class="direitos-reservados">
+            <p> &copy; Todos os direitos reservados a Viva a Moda.</p>
+        </div>
+    </footer>
+    <script src="js/cadastro.js"></script>
+</body>
+</html>
